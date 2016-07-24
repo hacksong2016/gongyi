@@ -44,7 +44,7 @@ class Home extends React.Component {
         <div className="section" id="section3">
           <div className="jumbotron">
             <h2>以爱为名，助力贫困儿童快乐成长</h2>
-            <p><a className="btn btn-success btn-lg" href="#" role="button">我要捐助</a></p>
+            <p><a className="btn btn-success btn-lg" href="/search" role="button">我要捐助</a></p>
           </div>
         </div>
       </div>
