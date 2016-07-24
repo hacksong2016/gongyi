@@ -1,0 +1,157 @@
+/* Style for our header texts
+	* --------------------------------------- */
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+  text-align:center;
+  overflow: hidden;
+}
+.section{
+  background-size: cover;
+}
+.slide{
+  background-size: cover;
+}
+
+#myVideo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top:0;
+  right:0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-color: black; /* in case the video doesn't fit the whole page*/
+  background-image: /* our video */;
+  background-position: center center;
+  background-size: contain;
+  object-fit: cover; /*cover video background */
+  z-index:3;
+}
+
+#section0 h1{
+  color: #FFF;
+  bottom: 10%;
+}
+
+/* Layer with position absolute in order to have it over the video
+* --------------------------------------- */
+#section1 .layer{
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  left: 0;
+  top: 43%;
+}
+
+/*solves problem with overflowing video in Mac with Chrome */
+#section1{
+  overflow: hidden;
+}
+
+#slide1{
+  background-image: url(/images/bg1.jpg);
+  background-position: 50%;
+  padding: 6% 0 0 0;
+}
+#slide2{
+  background-image: url(/images/bg2.jpg);
+  background-position: 40%;
+  padding: 6% 0 0 0;
+}
+#slide3{
+  background-image: url(/images/bg3.jpg);
+  background-position: 40%;
+  padding: 6% 0 0 0;
+}
+#slide4{
+  background-image: url(/images/bg4.jpg);
+  background-position: 40%;
+  padding: 6% 0 0 0;
+}
+.imgsContainer img{
+  width: 100%;
+}
+#section2{
+  background: #ddd;
+}
+#section3{
+  background-image: url(/images/bear.jpg);
+  background-position: 70%;
+  padding: 6% 0 0 0;
+}
+/* Top menu
+* --------------------------------------- */
+#menu li {
+  display:inline-block;
+  margin: 10px;
+  color: #000;
+  background:#fff;
+  background: rgba(255,255,255, 0.5);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#menu li.active{
+  background:#666;
+  background: rgba(0,0,0, 0.5);
+  color: #fff;
+}
+#menu li a{
+  text-decoration:none;
+  color: #000;
+}
+#menu li.active a:hover{
+  color: #000;
+}
+#menu li:hover{
+  background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+  padding: 9px 18px;
+  display:block;
+}
+#menu li.active a{
+  color: #fff;
+}
+#menu{
+  position:fixed;
+  top:0;
+  left:0;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+  background: #eee !important;
+}
+
+.fp-controlArrow {
+  top:70% !important;
+}
+
+.navbar{
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+}
+.content{
+  margin-top: 60px;
+}
+#map{
+  width: 550px;
+  height: 550px;
+  margin: auto;
+}
+@media (max-width: 601px) {
+  #map{
+    width: 380px;
+    height: 380px;
+    margin: auto;
+  }
+}

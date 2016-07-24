@@ -6,13 +6,16 @@ import Home from './components/home.jsx';
 
 export default function (injectDeps, {FlowRouter}) {
   const MainLayoutCtx = injectDeps(MainLayout);
-
+  const exitHome = () =>{
+    $.fn.fullpage.destroy('all');
+  };
   FlowRouter.route('/', {
     name: 'home',
     action() {
       mount(MainLayoutCtx, {
         content: () => (<Home />)
       });
-    }
+    },
+    triggersExit:[exitHome]
   });
 }
