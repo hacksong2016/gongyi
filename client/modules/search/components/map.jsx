@@ -29,6 +29,7 @@ const Map = React.createClass({
         data.push({name:res._id,value:res.count});
       });
     }
+    const cat = this.props.query.problem?this.props.query.problem:'贫困';
     const option = {
       title: {
         text: '待资助的学生',
@@ -41,7 +42,7 @@ const Map = React.createClass({
       legend: {
         orient: 'vertical',
         left: 'left',
-        data:['贫困']
+        data:[cat]
       },
       visualMap: {
         min: 0,
@@ -64,7 +65,7 @@ const Map = React.createClass({
       },
       series: [
         {
-          name: '贫困',
+          name: cat,
           type: 'map',
           mapType: 'china',
           roam: false,

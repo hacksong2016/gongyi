@@ -21,6 +21,10 @@ export default function () {
       }
       const pipline = [{"$match":selector},{"$group":{_id:"$province",count:{$sum:1}}}];
       return Kids.aggregate(pipline);
+    },
+    'kids.helpMe'(kidsId){
+      //check(kidsId,Object)
+      Kids.update({_id:kidsId},{$set:{status:2}});
     }
   });
 }

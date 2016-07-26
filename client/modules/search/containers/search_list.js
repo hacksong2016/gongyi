@@ -13,7 +13,8 @@ export const composer = ({context,query,page}, onData) => {
 };
 
 export const depsMapper = (context, actions) => ({
-  context: () => context
+  context: () => context,
+  helpKids:actions.helpme.helpKids
 });
 
 export default composeAll(

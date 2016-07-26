@@ -54,6 +54,7 @@ mongo-livedata@1.0.12
 npm-mongo@1.4.45
 observe-sequence@1.0.12
 ordered-dict@1.0.8
+percolate:paginated-subscription@0.2.4
 promise@0.7.3
 random@1.0.10
 reactive-dict@1.1.8

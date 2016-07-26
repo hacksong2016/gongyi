@@ -4,7 +4,7 @@ import {check} from 'meteor/check';
 
 export default function () {
   Meteor.publish('kids.list', function (query,page,limit) {
-    const selector = {};
+    const selector = {status:1};
     if(query.province){
       selector.province = query.province;
     }
