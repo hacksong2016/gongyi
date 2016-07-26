@@ -30,7 +30,7 @@ const HelpMe = React.createClass({
             <Image src={who.photos} thumbnail />
             <p>我是来自{who.province}的{who.name}</p>
             <p>感谢您的捐助,请经常回来关注我的成长.<Glyphicon style={{color:"red"}} glyph="heart"/></p>
-            <p style={{color:'grey',fontSize:'10px'}}>捐助流程还未做...</p>
+            <p style={{color:'#eee',fontSize:'8px'}}>捐助流程即将上线...</p>
           </Modal.Body>
           <Modal.Footer>
             <Button onClick={this.close}>Close</Button>
