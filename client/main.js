@@ -9,6 +9,8 @@ import searchModule from './modules/search';
 // init context
 const context = initContext();
 DocHead.addMeta({name: "viewport", content: "width=device-width, initial-scale=1"});
+DocHead.addMeta({rel: "shortcut icon", content: "/images/favicon.ico"});
+
 // create app
 const app = createApp(context);
 app.loadModule(coreModule);

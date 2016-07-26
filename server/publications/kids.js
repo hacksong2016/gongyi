@@ -3,16 +3,27 @@ import {Meteor} from 'meteor/meteor';
 import {check} from 'meteor/check';
 
 export default function () {
-  Meteor.publish('kids.list', function (query,page) {
+  Meteor.publish('kids.list', function (query,page,limit) {
     const selector = {};
     if(query.province){
       selector.province = query.province;
     }
-    page = page || 1;
+    if(query.gender){
+      selector.gender = query.gender;
+    }
+    if(query.problem){
+      selector.problem = {'$in':[query.problem]};
+    }
+    if(query.age){
+      if(query.age <= 10){
+        selector.age = {'$lte':10};
+      }else{
+        selector.age = {'$gt':10};
+      }
+    }
     const options = {
       sort:{_id:-1},
-      skip:(page-1)*10,
-      limit:10
+      limit:page*limit   //TODO 这个无限加载不友好,有待改进.
     };
     return Kids.find(selector,options);
   });

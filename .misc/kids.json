@@ -1,131 +1,100 @@
-{ 
-    "_id" : ObjectId("5794d0579436bd3f5c9378e0"), 
-    "province" : "西藏", 
-    "problem" : [
-        "贫穷", 
-        "孤儿"
-    ], 
-    "type" : "儿童", 
-    "nation" : "藏族", 
-    "school" : "第三完全小学", 
-    "degree" : "p6", 
-    "no" : "Bqhnqdswx158", 
-    "status" : "待捐助", 
-    "description" : "第三完全小学六年级Bqhnqdswx158，照片中的男孩2002年3月14日出生，2015年9月至2016年8月就读于第三完全小学六年级（1）班，住校。", 
-    "need" : "该同学是个藏族男孩，监护人是父亲，家里8口人,身高1.45米，家有重病患者，需要旧衣物捐助和经济援助。", 
-    "family" : "家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！", 
-    "evaluation" : "该生在校表现优秀，学习认真踏实。", 
-    "photos" : [
-        "/images/kids/kids2.jpg"
-    ], 
-    "gender" : "1"
-}
-{ 
-    "_id" : ObjectId("5794d0579436bd3f5c9378e1"), 
-    "province" : "西藏", 
-    "problem" : [
-        "贫穷", 
-        "孤儿"
-    ], 
-    "type" : "儿童", 
-    "nation" : "藏族", 
-    "school" : "芒普小学", 
-    "degree" : "p2", 
-    "no" : "Bxzlzmpxx088", 
-    "status" : "待捐助", 
-    "description" : "芒普小学二年级Bxzlzmpxx088，照片中的男孩2007年5月出生，2015年9月至2016年8月就读于芒普小学二年级（2）班，住校。", 
-    "need" : "该同学是个藏族男孩，监护人是父亲，家里8口人,身高1.45米，家有重病患者，需要旧衣物捐助和经济援助。", 
-    "family" : "家有六口人，我这次参加爱心助学捐助申请的原因是我两个父母经常打架，不顾我的一切，爸爸不去打工反而经常出去喝酒，现在我们家非常贫穷。而且三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。", 
-    "evaluation" : "该生在班里学习成绩优异，各方面表现良好。该生所内容真实。", 
-    "photos" : [
-        "/images/kids/kids1.jpg"
-    ], 
-    "gender" : "1"
-}
-{ 
-    "_id" : ObjectId("5794d0579436bd3f5c9378e3"), 
-    "province" : "西藏", 
-    "problem" : [
-        "贫穷", 
-        "残疾"
-    ], 
-    "type" : "儿童", 
-    "nation" : "藏族", 
-    "school" : "芒普小学", 
-    "degree" : "p3", 
-    "no" : "Bxzlzmpxx077", 
-    "status" : "待捐助", 
-    "description" : "芒普小学三年级Bxzlzmpxx077，照片中的男孩2004年4月出生，2015年9月至2016年8月就读于芒普小学三年级（1）班，住校。", 
-    "need" : "该同学是个藏族男孩，监护人是父亲，家里8口人（父亲、母亲、姨妈、3个妹妹、弟弟和我），身高1.40米，需要旧衣物捐助和经济援助。", 
-    "family" : "家有八口人。虽然家中有三个大人，可是我们家的经济来源不多，主要靠爸爸在外打工赚来的钱，再说妈妈身体不太好，姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ", 
-    "evaluation" : "该生在校期间，各方面表现良好，在学习上比较努力，因而学习成绩也较好。该生上面所写的情况属实。", 
-    "photos" : [
-        "/images/kids/kids5.jpg"
-    ], 
-    "gender" : "1"
-}
-{ 
-    "_id" : ObjectId("5794d0579436bd3f5c9378e5"), 
-    "province" : "湖北", 
-    "problem" : [
-        "贫穷", 
-        "孤儿"
-    ], 
-    "type" : "儿童", 
-    "nation" : "白族", 
-    "school" : "堰娅学校", 
-    "degree" : "p5", 
-    "no" : "Bhbeshfyyxx013", 
-    "status" : "待捐助", 
-    "description" : "堰娅学校五年级Bhbeshfyyxx013，照片中的男孩2004年8月18日出生，2015年9月至2016年7月就读于堰娅学校五年级，住校。", 
-    "need" : "该同学是个白族男孩，监护人是父亲，家里5口人，身高1.64米，需要旧衣物捐助和经济援助。", 
-    "family" : "家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。", 
-    "evaluation" : "该生情况属实，在校遵守校纪校规。", 
-    "photos" : [
-        "/images/kids/kids3.jpg"
-    ], 
-    "gender" : "1"
-}
-{ 
-    "_id" : ObjectId("5794d0579436bd3f5c9378e4"), 
-    "province" : "西藏", 
-    "problem" : [
-        "重症"
-    ], 
-    "type" : "儿童", 
-    "nation" : "藏族", 
-    "school" : "彭措林小学", 
-    "degree" : "p3", 
-    "no" : "Bxzlzpclxx085", 
-    "status" : "待捐助", 
-    "description" : "彭措林小学三年级Bxzlzpclxx085，照片中的男孩2006年2月9日出生，2015年9月至2016年8月就读于彭措林小学三年级（2）班，住校。", 
-    "need" : "该同学是个藏族男孩，监护人是父亲，家里10口人（爷爷、奶奶、父亲、母亲、叔叔、姐姐、哥哥、2个妹妹和我），身高1.25米，需要旧衣物捐助和经济援助。", 
-    "family" : "家有十口人，除了爷爷奶奶、父母和叔叔外，其他大都是学生，家里的生活费用之类都靠爸爸妈妈的种地收入来支撑。在贫穷的山区里没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ", 
-    "evaluation" : "该生在校期间，各方面表现良好，在学习上比较努力，学习成绩也很好。该生所写的情况属实。", 
-    "photos" : [
-        "/images/kids/kids1.jpg"
-    ], 
-    "gender" : "1"
-}
-{ 
-    "_id" : ObjectId("5794d0579436bd3f5c9378e2"), 
-    "province" : "西藏", 
-    "problem" : [
-        "贫穷", 
-        "残疾"
-    ], 
-    "type" : "儿童", 
-    "nation" : "藏族", 
-    "school" : "芒普小学", 
-    "degree" : "p2", 
-    "no" : "Bxzlzmpxx086", 
-    "status" : "待捐助", 
-    "description" : "芒普小学二年级Bxzlzmpxx086，照片中的男孩2007年9月22日出生，2015年9月至2016年8月就读于芒普小学二年级（1）班，住校。", 
-    "need" : "该同学是个藏族男孩，监护人是父亲，家里3口人（父亲、母亲和我），身高1.14米，需要旧衣物捐助和经济援助。", 
-    "family" : "家有三口人，家里只有那几亩地，来养活我们一家三口人，再加上没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。", 
-    "evaluation" : "该生在校期间，各方面表现良好，在学习上比较努力，因而学习成绩较好。该生所写情况属实。", 
-    "photos" : [
-        "/images/kids/kids4.jpg"
-    ], 
-    "gender" : "1"
-}
+{"gender":"2","name":"斜梦旋","status":1,"nation":"白族","province":"海南","degree":"p5","age":13,"problem":["贫穷",""],"photos":["/images/kids/kids15.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"海南某虚构小学5年级斜梦旋,今年13岁."}
+{"gender":"1","name":"牛黎明","status":1,"nation":"回族","province":"吉林","degree":"p7","age":16,"problem":["贫穷","残疾"],"photos":["/images/kids/kids-2.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"吉林某虚构小学7年级牛黎明,今年16岁."}
+{"gender":"1","name":"庞浩穰","status":1,"nation":"回族","province":"海南","degree":"p4","age":13,"problem":["贫穷","留守"],"photos":["/images/kids/kids1.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"海南某虚构小学4年级庞浩穰,今年13岁."}
+{"gender":"1","name":"海宏儒","status":1,"nation":"壮族","province":"福建","degree":"p2","age":9,"problem":["贫穷","失学"],"photos":["/images/kids/kids4.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"福建某虚构小学2年级海宏儒,今年9岁."}
+{"gender":"1","name":"仲孙强巴","status":1,"nation":"维吾尔族","province":"贵州","degree":"p1","age":10,"problem":["贫穷",""],"photos":["/images/kids/kids0.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"贵州某虚构小学1年级仲孙强巴,今年10岁."}
+{"gender":"1","name":"崔志文","status":1,"nation":"苗族","province":"新疆","degree":"p5","age":14,"problem":["贫穷","残疾"],"photos":["/images/kids/kids-3.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"新疆某虚构小学5年级崔志文,今年14岁."}
+{"gender":"1","name":"晁天工","status":1,"nation":"壮族","province":"湖北","degree":"p2","age":10,"problem":["贫穷","失学"],"photos":["/images/kids/kids-3.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"湖北某虚构小学2年级晁天工,今年10岁."}
+{"gender":"2","name":"苍半蕾","status":1,"nation":"白族","province":"四川","degree":"p8","age":16,"problem":["贫穷",""],"photos":["/images/kids/kids6.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"四川某虚构小学8年级苍半蕾,今年16岁."}
+{"gender":"1","name":"党兴国","status":1,"nation":"回族","province":"贵州","degree":"p2","age":10,"problem":["贫穷","残疾"],"photos":["/images/kids/kids0.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"贵州某虚构小学2年级党兴国,今年10岁."}
+{"gender":"2","name":"刘觅丹","status":1,"nation":"白族","province":"吉林","degree":"p6","age":14,"problem":["贫穷","失学"],"photos":["/images/kids/kids8.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"吉林某虚构小学6年级刘觅丹,今年14岁."}
+{"gender":"1","name":"田才艺","status":1,"nation":"藏族","province":"四川","degree":"p9","age":16,"problem":["贫穷","失学"],"photos":["/images/kids/kids2.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"四川某虚构小学9年级田才艺,今年16岁."}
+{"gender":"1","name":"平哲彦","status":1,"nation":"回族","province":"新疆","degree":"p7","age":16,"problem":["贫穷","失学"],"photos":["/images/kids/kids1.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"新疆某虚构小学7年级平哲彦,今年16岁."}
+{"gender":"1","name":"武华清","status":1,"nation":"藏族","province":"湖北","degree":"p3","age":12,"problem":["贫穷","残疾"],"photos":["/images/kids/kids-3.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"湖北某虚构小学3年级武华清,今年12岁."}
+{"gender":"1","name":"晏修为","status":1,"nation":"白族","province":"福建","degree":"p1","age":9,"problem":["贫穷",""],"photos":["/images/kids/kids-5.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"福建某虚构小学1年级晏修为,今年9岁."}
+{"gender":"2","name":"聂雪曼","status":1,"nation":"苗族","province":"四川","degree":"p4","age":12,"problem":["贫穷",""],"photos":["/images/kids/kids6.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"四川某虚构小学4年级聂雪曼,今年12岁."}
+{"gender":"1","name":"平宏阔","status":1,"nation":"白族","province":"海南","degree":"p7","age":16,"problem":["贫穷","留守"],"photos":["/images/kids/kids-2.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"海南某虚构小学7年级平宏阔,今年16岁."}
+{"gender":"1","name":"贾奇正","status":1,"nation":"藏族","province":"四川","degree":"p2","age":10,"problem":["贫穷",""],"photos":["/images/kids/kids4.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"四川某虚构小学2年级贾奇正,今年10岁."}
+{"gender":"2","name":"沙初蓝","status":1,"nation":"维吾尔族","province":"广西","degree":"p5","age":14,"problem":["贫穷","孤儿"],"photos":["/images/kids/kids12.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"广西某虚构小学5年级沙初蓝,今年14岁."}
+{"gender":"2","name":"蓬丹萱","status":1,"nation":"傣族","province":"云南","degree":"p2","age":9,"problem":["贫穷","失学"],"photos":["/images/kids/kids11.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"云南某虚构小学2年级蓬丹萱,今年9岁."}
+{"gender":"1","name":"唐远航","status":1,"nation":"白族","province":"陕西","degree":"p6","age":15,"problem":["贫穷",""],"photos":["/images/kids/kids-4.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"陕西某虚构小学6年级唐远航,今年15岁."}
+{"gender":"1","name":"鄂高朗","status":1,"nation":"苗族","province":"福建","degree":"p8","age":15,"problem":["贫穷",""],"photos":["/images/kids/kids4.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"福建某虚构小学8年级鄂高朗,今年15岁."}
+{"gender":"1","name":"薄达哇","status":1,"nation":"傣族","province":"福建","degree":"p2","age":9,"problem":["贫穷","失学"],"photos":["/images/kids/kids3.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"福建某虚构小学2年级薄达哇,今年9岁."}
+{"gender":"1","name":"谯嘉玉","status":1,"nation":"壮族","province":"陕西","degree":"p7","age":14,"problem":["贫穷",""],"photos":["/images/kids/kids-1.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"陕西某虚构小学7年级谯嘉玉,今年14岁."}
+{"gender":"1","name":"施和同","status":1,"nation":"藏族","province":"安徽","degree":"p2","age":10,"problem":["贫穷","失学"],"photos":["/images/kids/kids4.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"安徽某虚构小学2年级施和同,今年10岁."}
+{"gender":"2","name":"金梦玉","status":1,"nation":"藏族","province":"福建","degree":"p3","age":11,"problem":["贫穷",""],"photos":["/images/kids/kids7.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"福建某虚构小学3年级金梦玉,今年11岁."}
+{"gender":"1","name":"诸葛思淼","status":1,"nation":"苗族","province":"陕西","degree":"p4","age":11,"problem":["贫穷",""],"photos":["/images/kids/kids-1.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"陕西某虚构小学4年级诸葛思淼,今年11岁."}
+{"gender":"1","name":"琴敏叡","status":1,"nation":"回族","province":"四川","degree":"p4","age":13,"problem":["贫穷",""],"photos":["/images/kids/kids4.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"四川某虚构小学4年级琴敏叡,今年13岁."}
+{"gender":"1","name":"阎正卿","status":1,"nation":"回族","province":"河南","degree":"p5","age":12,"problem":["贫穷",""],"photos":["/images/kids/kids5.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"河南某虚构小学5年级阎正卿,今年12岁."}
+{"gender":"1","name":"淳于宏浚","status":1,"nation":"苗族","province":"广西","degree":"p1","age":10,"problem":["贫穷","留守"],"photos":["/images/kids/kids0.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"广西某虚构小学1年级淳于宏浚,今年10岁."}
+{"gender":"1","name":"茅奇希","status":1,"nation":"壮族","province":"湖北","degree":"p8","age":16,"problem":["贫穷",""],"photos":["/images/kids/kids-5.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"湖北某虚构小学8年级茅奇希,今年16岁."}
+{"gender":"1","name":"刁文山","status":1,"nation":"苗族","province":"吉林","degree":"p2","age":10,"problem":["贫穷",""],"photos":["/images/kids/kids-5.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"吉林某虚构小学2年级刁文山,今年10岁."}
+{"gender":"1","name":"钮飞驰","status":1,"nation":"白族","province":"贵州","degree":"p6","age":14,"problem":["贫穷",""],"photos":["/images/kids/kids-1.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"贵州某虚构小学6年级钮飞驰,今年14岁."}
+{"gender":"2","name":"毛书易","status":1,"nation":"藏族","province":"贵州","degree":"p1","age":8,"problem":["贫穷","孤儿"],"photos":["/images/kids/kids15.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"贵州某虚构小学1年级毛书易,今年8岁."}
+{"gender":"1","name":"蓝思聪","status":1,"nation":"傣族","province":"海南","degree":"p3","age":11,"problem":["贫穷",""],"photos":["/images/kids/kids-1.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"海南某虚构小学3年级蓝思聪,今年11岁."}
+{"gender":"2","name":"敖幼枫","status":1,"nation":"苗族","province":"福建","degree":"p2","age":9,"problem":["贫穷","残疾"],"photos":["/images/kids/kids8.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"福建某虚构小学2年级敖幼枫,今年9岁."}
+{"gender":"1","name":"辛奇文","status":1,"nation":"维吾尔族","province":"陕西","degree":"p8","age":17,"problem":["贫穷",""],"photos":["/images/kids/kids-1.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"陕西某虚构小学8年级辛奇文,今年17岁."}
+{"gender":"2","name":"包冷玉","status":1,"nation":"白族","province":"福建","degree":"p8","age":17,"problem":["贫穷","重病"],"photos":["/images/kids/kids8.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"福建某虚构小学8年级包冷玉,今年17岁."}
+{"gender":"1","name":"乌兴生","status":1,"nation":"壮族","province":"青海","degree":"p2","age":11,"problem":["贫穷",""],"photos":["/images/kids/kids2.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"青海某虚构小学2年级乌兴生,今年11岁."}
+{"gender":"1","name":"居宜民","status":1,"nation":"壮族","province":"海南","degree":"p8","age":15,"problem":["贫穷","孤儿"],"photos":["/images/kids/kids-3.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"海南某虚构小学8年级居宜民,今年15岁."}
+{"gender":"1","name":"劳飞飙","status":1,"nation":"白族","province":"西藏","degree":"p7","age":16,"problem":["贫穷",""],"photos":["/images/kids/kids-3.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"西藏某虚构小学7年级劳飞飙,今年16岁."}
+{"gender":"1","name":"郭冠玉","status":1,"nation":"白族","province":"黑龙江","degree":"p4","age":13,"problem":["贫穷",""],"photos":["/images/kids/kids2.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"黑龙江某虚构小学4年级郭冠玉,今年13岁."}
+{"gender":"1","name":"羊弘致","status":1,"nation":"白族","province":"福建","degree":"p2","age":10,"problem":["贫穷","失学"],"photos":["/images/kids/kids-5.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"福建某虚构小学2年级羊弘致,今年10岁."}
+{"gender":"1","name":"汤宏深","status":1,"nation":"回族","province":"四川","degree":"p3","age":12,"problem":["贫穷",""],"photos":["/images/kids/kids4.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"四川某虚构小学3年级汤宏深,今年12岁."}
+{"gender":"1","name":"宦开霁","status":1,"nation":"回族","province":"黑龙江","degree":"p3","age":10,"problem":["贫穷","残疾"],"photos":["/images/kids/kids1.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"黑龙江某虚构小学3年级宦开霁,今年10岁."}
+{"gender":"2","name":"和妙之","status":1,"nation":"白族","province":"青海","degree":"p6","age":15,"problem":["贫穷","留守"],"photos":["/images/kids/kids7.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"青海某虚构小学6年级和妙之,今年15岁."}
+{"gender":"1","name":"益昊天","status":1,"nation":"维吾尔族","province":"广西","degree":"p3","age":10,"problem":["贫穷",""],"photos":["/images/kids/kids-1.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"广西某虚构小学3年级益昊天,今年10岁."}
+{"gender":"2","name":"宦芷烟","status":1,"nation":"苗族","province":"安徽","degree":"p1","age":9,"problem":["贫穷",""],"photos":["/images/kids/kids13.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"安徽某虚构小学1年级宦芷烟,今年9岁."}
+{"gender":"1","name":"申屠俊贤","status":1,"nation":"傣族","province":"四川","degree":"p3","age":10,"problem":["贫穷",""],"photos":["/images/kids/kids4.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"四川某虚构小学3年级申屠俊贤,今年10岁."}
+{"gender":"1","name":"幸鸿振","status":1,"nation":"藏族","province":"福建","degree":"p8","age":16,"problem":["贫穷","重病"],"photos":["/images/kids/kids-5.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"福建某虚构小学8年级幸鸿振,今年16岁."}
+{"gender":"1","name":"裘温书","status":1,"nation":"白族","province":"吉林","degree":"p9","age":16,"problem":["贫穷","孤儿"],"photos":["/images/kids/kids1.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"吉林某虚构小学9年级裘温书,今年16岁."}
+{"gender":"1","name":"乜华彩","status":1,"nation":"白族","province":"陕西","degree":"p7","age":15,"problem":["贫穷","残疾"],"photos":["/images/kids/kids3.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"陕西某虚构小学7年级乜华彩,今年15岁."}
+{"gender":"1","name":"终良朋","status":1,"nation":"傣族","province":"甘肃","degree":"p5","age":14,"problem":["贫穷","残疾"],"photos":["/images/kids/kids-1.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"甘肃某虚构小学5年级终良朋,今年14岁."}
+{"gender":"1","name":"乌文轩","status":1,"nation":"傣族","province":"四川","degree":"p3","age":12,"problem":["贫穷","失学"],"photos":["/images/kids/kids-5.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"四川某虚构小学3年级乌文轩,今年12岁."}
+{"gender":"1","name":"乌嘉慕","status":1,"nation":"回族","province":"广西","degree":"p3","age":12,"problem":["贫穷","留守"],"photos":["/images/kids/kids-3.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"广西某虚构小学3年级乌嘉慕,今年12岁."}
+{"gender":"1","name":"关光启","status":1,"nation":"傣族","province":"青海","degree":"p4","age":13,"problem":["贫穷","残疾"],"photos":["/images/kids/kids5.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"青海某虚构小学4年级关光启,今年13岁."}
+{"gender":"2","name":"松夏云","status":1,"nation":"藏族","province":"陕西","degree":"p1","age":9,"problem":["贫穷","残疾"],"photos":["/images/kids/kids11.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"陕西某虚构小学1年级松夏云,今年9岁."}
+{"gender":"2","name":"弓秋灵","status":1,"nation":"傣族","province":"新疆","degree":"p5","age":12,"problem":["贫穷",""],"photos":["/images/kids/kids6.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"新疆某虚构小学5年级弓秋灵,今年12岁."}
+{"gender":"2","name":"景新柔","status":1,"nation":"维吾尔族","province":"福建","degree":"p1","age":9,"problem":["贫穷",""],"photos":["/images/kids/kids13.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"福建某虚构小学1年级景新柔,今年9岁."}
+{"gender":"1","name":"宰鹏鲸","status":1,"nation":"苗族","province":"甘肃","degree":"p5","age":12,"problem":["贫穷",""],"photos":["/images/kids/kids1.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"甘肃某虚构小学5年级宰鹏鲸,今年12岁."}
+{"gender":"2","name":"相若云","status":1,"nation":"维吾尔族","province":"黑龙江","degree":"p6","age":13,"problem":["贫穷","孤儿"],"photos":["/images/kids/kids6.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"黑龙江某虚构小学6年级相若云,今年13岁."}
+{"gender":"2","name":"向寒梅","status":1,"nation":"傣族","province":"四川","degree":"p5","age":14,"problem":["贫穷","失学"],"photos":["/images/kids/kids6.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"四川某虚构小学5年级向寒梅,今年14岁."}
+{"gender":"2","name":"蔚雅青","status":1,"nation":"傣族","province":"云南","degree":"p3","age":11,"problem":["贫穷",""],"photos":["/images/kids/kids6.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"云南某虚构小学3年级蔚雅青,今年11岁."}
+{"gender":"1","name":"巫马瀚漠","status":1,"nation":"苗族","province":"湖北","degree":"p3","age":12,"problem":["贫穷","留守"],"photos":["/images/kids/kids0.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"湖北某虚构小学3年级巫马瀚漠,今年12岁."}
+{"gender":"1","name":"苍嘉志","status":1,"nation":"白族","province":"福建","degree":"p1","age":10,"problem":["贫穷","重病"],"photos":["/images/kids/kids4.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"福建某虚构小学1年级苍嘉志,今年10岁."}
+{"gender":"1","name":"田睿好","status":1,"nation":"壮族","province":"湖北","degree":"p9","age":18,"problem":["贫穷",""],"photos":["/images/kids/kids-1.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"湖北某虚构小学9年级田睿好,今年18岁."}
+{"gender":"1","name":"从宏盛","status":1,"nation":"维吾尔族","province":"广西","degree":"p9","age":17,"problem":["贫穷","失学"],"photos":["/images/kids/kids2.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"广西某虚构小学9年级从宏盛,今年17岁."}
+{"gender":"2","name":"廉如南","status":1,"nation":"白族","province":"福建","degree":"p3","age":10,"problem":["贫穷",""],"photos":["/images/kids/kids7.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"福建某虚构小学3年级廉如南,今年10岁."}
+{"gender":"2","name":"胡若南","status":1,"nation":"回族","province":"湖北","degree":"p8","age":17,"problem":["贫穷","重病"],"photos":["/images/kids/kids6.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"湖北某虚构小学8年级胡若南,今年17岁."}
+{"gender":"1","name":"牧鸿飞","status":1,"nation":"藏族","province":"吉林","degree":"p7","age":15,"problem":["贫穷","失学"],"photos":["/images/kids/kids1.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"吉林某虚构小学7年级牧鸿飞,今年15岁."}
+{"gender":"1","name":"申国兴","status":1,"nation":"苗族","province":"青海","degree":"p8","age":16,"problem":["贫穷","孤儿"],"photos":["/images/kids/kids3.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"青海某虚构小学8年级申国兴,今年16岁."}
+{"gender":"2","name":"郁以珊","status":1,"nation":"维吾尔族","province":"黑龙江","degree":"p7","age":15,"problem":["贫穷","留守"],"photos":["/images/kids/kids7.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"黑龙江某虚构小学7年级郁以珊,今年15岁."}
+{"gender":"1","name":"缪天华","status":1,"nation":"回族","province":"青海","degree":"p3","age":12,"problem":["贫穷",""],"photos":["/images/kids/kids5.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"青海某虚构小学3年级缪天华,今年12岁."}
+{"gender":"2","name":"魏代芙","status":1,"nation":"壮族","province":"西藏","degree":"p4","age":12,"problem":["贫穷","孤儿"],"photos":["/images/kids/kids14.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"西藏某虚构小学4年级魏代芙,今年12岁."}
+{"gender":"2","name":"浦采文","status":1,"nation":"藏族","province":"贵州","degree":"p1","age":8,"problem":["贫穷","失学"],"photos":["/images/kids/kids16.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"贵州某虚构小学1年级浦采文,今年8岁."}
+{"gender":"1","name":"计文曜","status":1,"nation":"藏族","province":"陕西","degree":"p8","age":15,"problem":["贫穷","失学"],"photos":["/images/kids/kids-4.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"陕西某虚构小学8年级计文曜,今年15岁."}
+{"gender":"1","name":"荀高邈","status":1,"nation":"维吾尔族","province":"河南","degree":"p6","age":14,"problem":["贫穷",""],"photos":["/images/kids/kids-5.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"河南某虚构小学6年级荀高邈,今年14岁."}
+{"gender":"1","name":"丌官子晋","status":1,"nation":"回族","province":"新疆","degree":"p8","age":15,"problem":["贫穷",""],"photos":["/images/kids/kids-1.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"新疆某虚构小学8年级丌官子晋,今年15岁."}
+{"gender":"1","name":"康边巴","status":1,"nation":"壮族","province":"新疆","degree":"p4","age":12,"problem":["贫穷",""],"photos":["/images/kids/kids-1.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"新疆某虚构小学4年级康边巴,今年12岁."}
+{"gender":"1","name":"鲜于高义","status":1,"nation":"白族","province":"西藏","degree":"p6","age":15,"problem":["贫穷",""],"photos":["/images/kids/kids-5.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"西藏某虚构小学6年级鲜于高义,今年15岁."}
+{"gender":"2","name":"邓代卉","status":1,"nation":"壮族","province":"河南","degree":"p8","age":16,"problem":["贫穷",""],"photos":["/images/kids/kids9.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"河南某虚构小学8年级邓代卉,今年16岁."}
+{"gender":"1","name":"从安易","status":1,"nation":"白族","province":"河南","degree":"p9","age":17,"problem":["贫穷","留守"],"photos":["/images/kids/kids-5.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"河南某虚构小学9年级从安易,今年17岁."}
+{"gender":"1","name":"武康平","status":1,"nation":"苗族","province":"四川","degree":"p8","age":16,"problem":["贫穷",""],"photos":["/images/kids/kids-5.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"四川某虚构小学8年级武康平,今年16岁."}
+{"gender":"1","name":"印飞驰","status":1,"nation":"藏族","province":"黑龙江","degree":"p6","age":15,"problem":["贫穷","孤儿"],"photos":["/images/kids/kids-1.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"黑龙江某虚构小学6年级印飞驰,今年15岁."}
+{"gender":"1","name":"束天逸","status":1,"nation":"傣族","province":"黑龙江","degree":"p4","age":12,"problem":["贫穷",""],"photos":["/images/kids/kids-3.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"黑龙江某虚构小学4年级束天逸,今年12岁."}
+{"gender":"1","name":"巴睿范","status":1,"nation":"回族","province":"海南","degree":"p5","age":14,"problem":["贫穷","留守"],"photos":["/images/kids/kids1.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"海南某虚构小学5年级巴睿范,今年14岁."}
+{"gender":"1","name":"茹雅懿","status":1,"nation":"藏族","province":"黑龙江","degree":"p9","age":18,"problem":["贫穷",""],"photos":["/images/kids/kids4.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"黑龙江某虚构小学9年级茹雅懿,今年18岁."}
+{"gender":"2","name":"狄翠阳","status":1,"nation":"壮族","province":"广西","degree":"p6","age":13,"problem":["贫穷",""],"photos":["/images/kids/kids8.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"广西某虚构小学6年级狄翠阳,今年13岁."}
+{"gender":"2","name":"暴冷荷","status":1,"nation":"维吾尔族","province":"四川","degree":"p9","age":17,"problem":["贫穷","失学"],"photos":["/images/kids/kids10.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"四川某虚构小学9年级暴冷荷,今年17岁."}
+{"gender":"2","name":"通盼柳","status":1,"nation":"白族","province":"安徽","degree":"p5","age":14,"problem":["贫穷","留守"],"photos":["/images/kids/kids11.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"安徽某虚构小学5年级通盼柳,今年14岁."}
+{"gender":"1","name":"容良骥","status":1,"nation":"维吾尔族","province":"海南","degree":"p5","age":13,"problem":["贫穷",""],"photos":["/images/kids/kids2.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"海南某虚构小学5年级容良骥,今年13岁."}
+{"gender":"2","name":"方忆曼","status":1,"nation":"壮族","province":"湖北","degree":"p1","age":10,"problem":["贫穷",""],"photos":["/images/kids/kids13.jpg"],"family":"家有八口人，家里无固定经济来源，全家人靠年老的父亲一人来维持生活，父亲常年患病在身，家庭生活条件非常困难，感谢爱心人士的帮助！","description":"湖北某虚构小学1年级方忆曼,今年10岁."}
+{"gender":"1","name":"宦英卓","status":1,"nation":"苗族","province":"西藏","degree":"p8","age":17,"problem":["贫穷","留守"],"photos":["/images/kids/kids-5.jpg"],"family":"家有六口人，三个孩子的吃穿都非常困难，营养也缺少，连买作业本的钱都不给我。所以爱心人士捐助我，我以后好好学习，长大后做一个对社会有用的人。","description":"西藏某虚构小学8年级宦英卓,今年17岁."}
+{"gender":"1","name":"冉浦泽","status":1,"nation":"苗族","province":"福建","degree":"p1","age":9,"problem":["贫穷","孤儿"],"photos":["/images/kids/kids3.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"福建某虚构小学1年级冉浦泽,今年9岁."}
+{"gender":"1","name":"经星文","status":1,"nation":"藏族","province":"青海","degree":"p7","age":15,"problem":["贫穷","重病"],"photos":["/images/kids/kids1.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"青海某虚构小学7年级经星文,今年15岁."}
+{"gender":"1","name":"微生成和","status":1,"nation":"苗族","province":"湖北","degree":"p8","age":16,"problem":["贫穷",""],"photos":["/images/kids/kids-1.jpg"],"family":"家庭人口多，无稳定的收入来源，家住偏远山区，经济条件差，父母体弱多病。","description":"湖北某虚构小学8年级微生成和,今年16岁."}
+{"gender":"1","name":"谢文成","status":1,"nation":"回族","province":"西藏","degree":"p8","age":16,"problem":["贫穷","失学"],"photos":["/images/kids/kids1.jpg"],"family":"家有八口人。姨妈在家里照顾妈妈和几个弟弟妹妹，因此在学费和生活费等方面出现较大的困难，希望爱心人士们多多帮助。我会在学习上更加努力。谢谢！ ","description":"西藏某虚构小学8年级谢文成,今年16岁."}
+{"gender":"1","name":"荣弘厚","status":1,"nation":"维吾尔族","province":"河南","degree":"p5","age":12,"problem":["贫穷","失学"],"photos":["/images/kids/kids-2.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"河南某虚构小学5年级荣弘厚,今年12岁."}
+{"gender":"1","name":"笪宏才","status":1,"nation":"白族","province":"贵州","degree":"p5","age":14,"problem":["贫穷",""],"photos":["/images/kids/kids5.jpg"],"family":"家有三口人，没有什么其他经济来源，生活上十分困难，最起码的学习用具都买不起，渴望社会各界人士能给予我帮助，我将会通过自己的努力回报社会、改变自家的现状。","description":"贵州某虚构小学5年级笪宏才,今年14岁."}
+{"gender":"1","name":"湛安然","status":1,"nation":"傣族","province":"四川","degree":"p8","age":17,"problem":["贫穷",""],"photos":["/images/kids/kids-5.jpg"],"family":"家中目前没有经济来源。姥姥七十多岁了，生活不能自理。姐姐学习还好，马上就要中考，去外地了。所以家中没有供她上学的学费，经济方面很紧张。","description":"四川某虚构小学8年级湛安然,今年17岁."}
+{"gender":"1","name":"简锦程","status":1,"nation":"壮族","province":"广西","degree":"p2","age":10,"problem":["贫穷",""],"photos":["/images/kids/kids5.jpg"],"family":"家有十口人，没有其他的经济来源，再说没有劳动之人，都是幼小的孩子。目前家里极为困难，急需你们的帮助，感谢！ ","description":"广西某虚构小学2年级简锦程,今年10岁."}

@@ -7,9 +7,6 @@ const Map = React.createClass({
   getInitialState() {
     return { show: false };
   },
-  componentDidMount(){
-
-  },
   componentWillReceiveProps(nextProps){
     if(nextProps.show === true ){
       this.open();
@@ -21,6 +18,7 @@ const Map = React.createClass({
     myChart.on('click', function (params) {
       if(params.name){
         self.props.choose(params.name);
+        self.props.close();
       }
       self.close();
     });
@@ -86,10 +84,11 @@ const Map = React.createClass({
     myChart.setOption(option);
   },
   loadMap(){
-    this.props.getProvinceCount(this.drawMap)
+    this.props.getProvinceCount(this.drawMap,this.props.query);
   },
   close() {
     this.setState({ show: false });
+    this.props.close();
   },
   open() {
     this.setState({ show: true });
