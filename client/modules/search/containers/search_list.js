@@ -4,7 +4,8 @@ import SearchList from '../components/search_list.jsx';
 
 export const composer = ({context,query,page}, onData) => {
   const {Meteor, Collections} = context();
-  if(Meteor.subscribe('kids.list',query,page).ready()){
+  const listHandle = Meteor.subscribeWithPagination('kids.list',query,page,10);
+  if(listHandle.ready()){
     const options = {sort:{_id:-1}};
     const lists = Collections.Kids.find({},options).fetch();
     onData(null, {lists});
@@ -12,7 +13,8 @@ export const composer = ({context,query,page}, onData) => {
 };
 
 export const depsMapper = (context, actions) => ({
-  context: () => context
+  context: () => context,
+  helpKids:actions.helpme.helpKids
 });
 
 export default composeAll(

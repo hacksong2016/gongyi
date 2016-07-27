@@ -1,5 +1,7 @@
 import map from './map';
+import helpme from './helpme';
 
 export default {
-  map
+  map,
+  helpme
 };

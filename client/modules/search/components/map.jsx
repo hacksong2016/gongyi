@@ -7,9 +7,6 @@ const Map = React.createClass({
   getInitialState() {
     return { show: false };
   },
-  componentDidMount(){
-
-  },
   componentWillReceiveProps(nextProps){
     if(nextProps.show === true ){
       this.open();
@@ -21,6 +18,7 @@ const Map = React.createClass({
     myChart.on('click', function (params) {
       if(params.name){
         self.props.choose(params.name);
+        self.props.close();
       }
       self.close();
     });
@@ -31,6 +29,7 @@ const Map = React.createClass({
         data.push({name:res._id,value:res.count});
       });
     }
+    const cat = this.props.query.problem?this.props.query.problem:'贫困';
     const option = {
       title: {
         text: '待资助的学生',
@@ -43,7 +42,7 @@ const Map = React.createClass({
       legend: {
         orient: 'vertical',
         left: 'left',
-        data:['贫困']
+        data:[cat]
       },
       visualMap: {
         min: 0,
@@ -66,7 +65,7 @@ const Map = React.createClass({
       },
       series: [
         {
-          name: '贫困',
+          name: cat,
           type: 'map',
           mapType: 'china',
           roam: false,
@@ -86,10 +85,11 @@ const Map = React.createClass({
     myChart.setOption(option);
   },
   loadMap(){
-    this.props.getProvinceCount(this.drawMap)
+    this.props.getProvinceCount(this.drawMap,this.props.query);
   },
   close() {
     this.setState({ show: false });
+    this.props.close();
   },
   open() {
     this.setState({ show: true });

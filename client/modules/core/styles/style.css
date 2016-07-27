@@ -148,10 +148,20 @@
   height: 550px;
   margin: auto;
 }
+.search-list .thumbnail .caption{
+  height: 250px;
+}
+
 @media (max-width: 601px) {
   #map{
     width: 380px;
     height: 380px;
     margin: auto;
+  }
+}
+
+@media (max-width: 401px) {
+  .search-list .thumbnail .caption{
+    height: 320px;
   }
 }
