@@ -20,7 +20,7 @@ kids.json为模拟数据
 
 meteor npm install  #不建议使用npm install,如果npm版本小于3.0,会有兼容错误. 
 
-#如有需要,可导入.misc中的数据文件至mongoDb
+//如有需要,可导入.misc中的数据文件至mongoDb
 
 meteor
 
