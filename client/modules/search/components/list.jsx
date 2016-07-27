@@ -47,7 +47,7 @@ class List extends React.Component{
     return(
       <Grid className="content search-list">
         <Row>
-          <Panel collapsible defaultExpanded header="筛选条件">
+          <Panel collapsible defaultExpanded header="查找需要帮助的孩子">
             <Button bsStyle="primary" bsSize="small" onClick={this.showModal.bind(this)}>选择地区</Button>
             <label>当前选择:{this.state.query.province}</label>
             <Map query={this.state.query} show={this.state.showModal} choose={this.chooseProvince.bind(this)} close={this.closeModal.bind(this)}></Map>

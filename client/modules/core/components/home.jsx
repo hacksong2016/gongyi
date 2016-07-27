@@ -1,5 +1,5 @@
 import React from 'react';
-import fullpage from 'fullpage.js';
+import 'fullpage.js';
 import {Grid,Row,Col} from 'react-bootstrap';
 
 class Home extends React.Component {
@@ -40,9 +40,12 @@ class Home extends React.Component {
             <video id="myVideo" autoPlay controls loop data-keepplaying>
               <source src="/other/hope.mp4" type="video/mp4"></source>
             </video>
-            <audio id="myMusic" controls autoPlay loop preload style={{display:'none'}} data-keepplaying>
-              <source src="/other/hope.mp3" type="audio/mpeg" />
-            </audio>
+            <div id="myMusic" style={{display:'none'}}>
+              <p>最右上角菜单,选择从浏览器中打开,可以查看视频.</p>
+              <audio controls loop preload data-keepplaying>
+                <source src="/other/hope.mp3" type="audio/mpeg" />
+              </audio>
+            </div>
           </div>
           <div className="section" id="section2">
             <Grid className="wrap" fluid={true}>
