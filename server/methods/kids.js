@@ -5,7 +5,7 @@ import {check} from 'meteor/check';
 export default function () {
   Meteor.methods({
     'kids.getProvinceCount'(query) {
-      let selector = {};
+      let selector = {status:1};
       if(query.gender){
         selector.gender = query.gender;
       }
